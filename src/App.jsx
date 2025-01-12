@@ -1,0 +1,24 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Project from "./pages/MyWork/Project";
+import Contact from "./pages/Contact/Contact";
+import Myinfo from "./myinfo";
+
+const App=()=> {
+  return (
+    <div className="bg-slate-950 flex " >
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home info={Myinfo} />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+    </div>
+  )
+}
+
+export default App
+
