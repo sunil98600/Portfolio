@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const [text] = useTypewriter({
-    words: ["Full Stack Web Developer", "Cybersecurity Enthusiast", "Machine Learning Enthusiast"],
+    words: ["Web Developer Enthusiast", "Cybersecurity Enthusiast", "Machine Learning Enthusiast"],
     loop: true, // Enable looping
     typeSpeed: 50,
     deleteSpeed: 40,
@@ -32,8 +32,8 @@ const Hero = () => {
       </span>
     </h2>
     <div className="space-x-4">
-      <button className="bg-gray-800 shadow-md hover:bg-yellow-500 transition-all text-white py-3 px-6 rounded-lg text-sm font-semibold">
-        PROJECTS
+      <button className="bg-gray-800 shadow-md uppercase hover:bg-yellow-500 transition-all text-white py-3 px-6 rounded-lg text-sm font-semibold">
+      <Link to="/work"> Projects</Link>
       </button>
       <button className="bg-gray-800 shadow-md hover:bg-yellow-500 transition-all uppercase text-white py-3 px-6 rounded-lg text-sm font-semibold">
        <Link to="/about"> Resume</Link>
