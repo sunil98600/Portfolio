@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import heroImage from '../../../assets/hero-1.jpg';
+import heroImage from '../../../assets/img1.jpg';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
     <h2 className="text-2xl text-gray-300 font-bold">
       and 
       I am passionate about </h2>
-    <h2 className="text-6xl text-gray-300 font-bold">
+    <h2 className="text-5xl text-gray-300 font-bold">
       <span>{text}</span>{" "}
       <span style={{ color: "yellow" }}>
         <Cursor />
