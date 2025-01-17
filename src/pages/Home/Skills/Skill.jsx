@@ -86,7 +86,7 @@ const Skill = () => {
 
   return (
     <div
-      className="bg-gray-900 py-12 "
+      className="py-12 "
       ref={sectionRef} // Attach the ref to the section
     >
       <h2 className="text-white text-center text-3xl font-bold mb-8 font-serif">My Skills</h2>

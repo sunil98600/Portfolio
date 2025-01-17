@@ -8,6 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'hero-pattern': "url('C:\Users\sunil\Desktop\REACT\portfolio\portfolio\src\assets\img.jpg')",
+        'space-image' : "url('C:\Users\sunil\Desktop\REACT\portfolio\portfolio\portfolio\src\assets\space.jpg')"
       }
     },
   },

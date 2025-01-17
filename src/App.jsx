@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
@@ -7,7 +8,7 @@ import Myinfo from "./myinfo";
 
 const App=()=> {
   return (
-    <div className="bg-slate-950 flex " >
+    <div className="bg-slate-950 ">
       <Router>
         <Routes>
           <Route path="/" element={<Home info={Myinfo} />} />

@@ -5,7 +5,7 @@ import Skill from '../Home/Skills/Skill';
 const About = () => {
   return (
     <Layout>
-      <section className="bg-gray-900 text-white py-16 px-8 md:px-16">
+      <section className=" text-white py-16 px-8 md:px-16">
         {/* Title */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-serif font-bold text-gray-400 mb-4">About Me</h2>

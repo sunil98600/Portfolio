@@ -1,22 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-400 py-8 px-8">
-      <div className="max-w-screen-lg mx-auto flex flex-col sm:flex-row justify-between items-center">
-        {/* Footer Left - Company Info */}
-        <div className="mb-6 sm:mb-0 text-2xl font-bold">
-        <span className="text-gray-800">PORT</span>
-        <span className="text-gray-400">FOLIO</span>
+    <footer className="bg-transparent text-gray-400 py-4 px-6">
+      <div className="max-w-screen-lg mx-auto text-center space-y-4">
+        {/* Social Media Links */}
+        <div className="flex justify-center space-x-6">
+          <a
+            href="https://x.com/SunilPatil98"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition duration-300 text-lg"
+          >
+            <i className="fab fa-twitter"></i> Twitter
+          </a>
+          <a
+            href="https://www.linkedin.com/in/sunilpatil9860/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition duration-300 text-lg"
+          >
+            <i className="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a
+            href="https://www.instagram.com/sunil_patil_0107"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition duration-300 text-lg"
+          >
+            <i className="fab fa-instagram"></i> Instagram
+          </a>
         </div>
 
-        {/* Footer Right - Links */}
-        {/* <div className="flex space-x-6">
-          <Link to='/' className="hover:text-white transition duration-300">Home</Link>
-          <Link to='/about' className="hover:text-white transition duration-300">About Me</Link>
-          <Link to='/work' className="hover:text-white transition duration-300">My Work</Link>
-          <Link to='/contact' className="hover:text-white transition duration-300">Contact Me</Link>
-        </div> */}
+        {/* Greeting Message */}
+        <p className="text-sm text-gray-500">
+          © {new Date().getFullYear()} Sunil Satish Patil. Made with ❤️ for the web.
+        </p>
       </div>
     </footer>
   );

@@ -1,20 +1,16 @@
-import React from 'react';
-import Layout from '../../components/Layout/Layout';
-import Hero from "./Hero/Hero"; 
-import AboutMe from './About/AboutMe';
-import Contact from './Contact/Contact';
+import React from "react";
+import Layout from "../../components/Layout/Layout";
+import Hero from "./Hero/Hero";
 
-const Home =({info})=>{
-return(
-    <div>
-        <Layout>
-            <Hero info={info}  />
-            <AboutMe />
-            <Contact />
-        </Layout>
+const Home = ({ info }) => {
+  
+  return (
+    <div >
+      <Layout>
+       <Hero />
+      </Layout>
     </div>
-)
-}
-
+  );
+};
 
 export default Home;

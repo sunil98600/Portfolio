@@ -35,9 +35,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="w-full h-screen">
+    <div className="w-full ">
       <Layout>
-        <div className="bg-gray-900 h-full flex items-center justify-center pt-20 px-6 text-white">
+        <div className=" flex items-center justify-center pt-20 px-6 text-white">
           <div className="w-full max-w-6xl">
             <h1 className="text-4xl font-bold text-center mb-8">Get in Touch</h1>
 

@@ -34,20 +34,20 @@ const Navbar = () => {
         </li>
         <li>
           <Link className="nav-link" to="/about">
-            About Me
+            About
             {menu === "about" && <hr className="custom-hr" />}
           </Link>
         </li>
         <li>
           <Link className="nav-link" to="/work">
-            My Work
+            Projects
             {menu === "work" && <hr className="custom-hr" />}
           </Link>
         </li>
         
         <li>
           <Link className="nav-link" to="/contact">
-            Contact Me
+            Contact
             {menu === "contact" && <hr className="custom-hr" />}
           </Link>
         </li>

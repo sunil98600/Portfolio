@@ -49,7 +49,7 @@ const projects = [
 
 const ProjectList = () => {
   return (
-    <section className="bg-black p-10">
+    <section className="p-10">
       <div className="container mx-auto text-white">
         {/* Featured Projects Heading */}
         <div className="flex justify-between items-center mb-8">
