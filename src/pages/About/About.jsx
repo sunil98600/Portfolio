@@ -60,7 +60,6 @@ const About = () => {
             <h3 className="text-2xl font-serif font-semibold text-gray-400">Quick Highlights</h3>
             <ul className="text-lg text-gray-300 space-y-4">
               <li><strong>Education:</strong> B.Eng. in Information Technology (CGPA: 8.07)</li>
-              <li><strong>Experience:</strong> SDE Intern - Campus Dining Review System (JS, React, Node)</li>
               <li><strong>Projects:</strong> Personal Portfolio, Blogify, AI Traffic Optimization</li>
               <li><strong>Certifications:</strong> Cyber Security (Google), ChatGPT Prompting (Udemy)</li>
               <li><strong>Languages:</strong> Java, Python, JavaScript, SQL</li>
