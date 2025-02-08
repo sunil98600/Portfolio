@@ -1,10 +1,11 @@
 
 import React, { useRef } from 'react';
-import Layout from '../../components/Layout/Layout';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import emailjs from '@emailjs/browser';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 
 const Contact = () => {
@@ -36,7 +37,7 @@ const Contact = () => {
 
   return (
     <div className="w-full ">
-      <Layout>
+      <Navbar/>
         <div className=" flex items-center justify-center pt-20 px-6 text-white">
           <div className="w-full max-w-6xl">
             <h1 className="text-4xl font-bold text-center mb-8">Get in Touch</h1>
@@ -104,7 +105,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </Layout>
+      <Footer/>
     </div>
   );
 };

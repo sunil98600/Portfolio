@@ -41,7 +41,7 @@ const CircularProgress = ({ percent, isVisible }) => {
           cx="50"
           cy="50"
           r="45"
-          stroke="#9CA3AF" /* Tailwind's bg-gray-400 color */ // Yellow color
+          stroke="#FFFFFF" /* Tailwind's bg-gray-400 color */ // Yellow color
           strokeWidth="10"
           fill="none"
           strokeDasharray="282.6" // Circumference of the circle (2 * π * radius)

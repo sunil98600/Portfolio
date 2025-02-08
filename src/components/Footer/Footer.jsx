@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
 
         {/* Greeting Message */}
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-white">
           © {new Date().getFullYear()} Sunil Satish Patil. Made with ❤️ for the web.
         </p>
       </div>

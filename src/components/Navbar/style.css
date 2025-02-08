@@ -19,6 +19,7 @@
 /* Navbar Links */
 .nav-link {
   color: white;
+  font-weight: bold;
   text-decoration: none;
   transition: color 0.3s ease; /* Smooth transition for hover */
 }

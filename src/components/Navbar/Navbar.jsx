@@ -21,7 +21,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className="text-2xl font-bold">
         <span className="text-gray-800">PORT</span>
-        <span className="text-gray-400">FOLIO</span>
+        <span className="text-white">FOLIO</span>
       </div>
 
       {/* Navbar Links */}

@@ -1,10 +1,13 @@
 import React from 'react';
-import Layout from '../../components/Layout/Layout';
-import Skill from '../Home/Skills/Skill';
+import Layout from '../components/Layout/Layout';
+import Skill from '../components/Skill';
+import Navbar from '../components/Navbar/Navbar';
+import Footer from '../components/Footer/Footer';
 
 const About = () => {
   return (
-    <Layout>
+    <div>
+    <Navbar/>
       <section className=" text-white py-16 px-8 md:px-16">
         {/* Title */}
         <div className="text-center mb-16">
@@ -92,7 +95,8 @@ const About = () => {
         </div>
       </section>
       <Skill/>
-    </Layout>
+    <Footer/>
+    </div>
   );
 };
 
