@@ -8,7 +8,7 @@ import Myinfo from "./myinfo";
 
 const App=()=> {
   return (
-    <div className="bg-slate-950">b
+    <div>
       <Router>
         <Routes>
           <Route path="/" element={<Home info={Myinfo} />} />

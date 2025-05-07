@@ -14,9 +14,8 @@ const Home = ({ info }) => {
   });
 
   return (
-    <div className="relative bg-black min-h-screen">
+    <div className="relative min-h-screen">
       {/* Binary Rain Effect as a Background */}
-      <BinaryRain />
 
       {/* Main Content */}
       <div className="relative z-10 flex flex-col min-h-screen">
