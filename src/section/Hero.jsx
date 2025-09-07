@@ -70,7 +70,7 @@ const Hero = () => {
       {/* Right Side - Photo with Fade */}
       <div className="relative w-full md:w-5/12 h-[300px] sm:h-[400px] md:h-screen pt-8">
         <img
-          src="src/assets/Snapchat-389782440.jpg" // 👉 replace with your actual photo
+          src="Snapchat-389782440.jpg" // 👉 replace with your actual photo
           alt="Sunil Patil"
           className="w-full h-full object-cover object-center md:object-right rounded-lg md:rounded-none"
         />
